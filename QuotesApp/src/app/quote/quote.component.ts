@@ -14,7 +14,8 @@ export class QuoteComponent implements OnInit {
     new Quote("I think [Arsene Wenger] is one of these people who is a voyeur. He likes to watch other people. There are some guys who, when they are at home, have a big telescope to see what happens in other families. He speaks, speaks, speaks about Chelsea.", "Jose Mourinho", "Moringa Press")
 
   ]
-
+  toogleDetails(index){
+        this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
 
   constructor() { }
 
