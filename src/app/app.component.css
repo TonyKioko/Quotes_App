@@ -2,4 +2,11 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 200px;
+  color:white;
+
+}
+#quote-section {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../src/assets/bg3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
