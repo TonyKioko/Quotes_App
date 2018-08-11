@@ -6,10 +6,13 @@
     </div>
   </div>
 </div>
+<br>
 <ul>
     <div *ngFor='let quote of quotes;let i=index'>
-        <li >{{ quote.quote }}   | <app-vote></app-vote></li>
-        <button  (click)='toogleDetails(i)'>Show Details</button>
+        <li >{{ quote.quote }}    <app-vote></app-vote></li>
+        <button  class="btn btn-success my-2"(click)='toogleDetails(i)'>Quote Details</button>
         <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'(isComplete)= 'deleteGoal($event,i)' ></app-quote-details>
+        <hr>
     </div>
+
 </ul>
