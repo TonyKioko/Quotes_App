@@ -1,27 +1,33 @@
-# QuotesApp
+# BrainyQuotes
+#### Pig Dice created as an Independent Project at the end of Week Four, 20/07/2018
+#### Author **Tony Kioko Munywoki**
+## Description
+BrainyQuotes is a web application that enables users to create quotes, have the quotes voted on and the option to delete the quotes.
+## Specifications
+* Create a new quote
+* Upvote or Downvote on quotes
+* Delete Quote
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Live Link ###
+ https://tonykioko.github.io/pig-dice/index.html
+## Setup/Installation Requirements.
+* Install Angular CLI and other necessary softwares required to run angular apps
+* Git clone https://github.com/TonyKioko/Quotes_App or download and unzip the repository from github.
+* Navigate into cloned file and  run ng serve. Navigate to http://localhost:4200/ in your favorite browser to load app.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technology used ##
 
-## Build
+* Angular JS
+* HTML
+* Cascading Style Sheets
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Known Bugs ##
+There are no known bugs.
+## Support and contact details
+Contact me if you run into issues or have any questions. Please feel free to point out areas that can improved. Contact @ tonykioko384@gmail.com
+### License
+This project is licensed under the MIT Open Source license,Copyright (c) 2018 **Tony Kioko**

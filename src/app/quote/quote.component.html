@@ -4,12 +4,16 @@
     <div class="col-md-12">
       <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
+    <br>
+    
   </div>
 </div>
 <br>
 <ul>
     <div *ngFor='let quote of quotes;let i=index'>
-        <li >{{ quote.quote }}    <app-vote></app-vote></li>
+        <li >{{ quote.quote }}</li>
+        <br>
+        <app-vote></app-vote>
         <button  class="btn btn-success my-2"(click)='toogleDetails(i)'>Quote Details</button>
         <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'(isComplete)= 'deleteGoal($event,i)' ></app-quote-details>
         <hr>
