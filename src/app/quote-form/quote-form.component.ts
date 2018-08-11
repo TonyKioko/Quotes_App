@@ -12,6 +12,9 @@ export class QuoteFormComponent implements OnInit {
 
     submitQuote(){
         this.addQuote.emit(this.newQuote);
+        this.newQuote.quote = '';
+        console.log(this.newQuote.quote)
+
     }
   constructor() { }
 
