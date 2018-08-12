@@ -11,7 +11,7 @@ BrainyQuotes is a web application that enables users to create quotes, have the 
 
 
 ### Live Link ###
- https://tonykioko.github.io/pig-dice/index.html
+ 
 ## Setup/Installation Requirements.
 * Install Angular CLI and other necessary softwares required to run angular apps
 * Git clone https://github.com/TonyKioko/Quotes_App or download and unzip the repository from github.
