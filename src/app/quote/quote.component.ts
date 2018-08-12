@@ -8,10 +8,11 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
 
+
   quotes = [
 
-    new Quote(1, "Talk is cheap. Show me the code", "Linus", "Moringa Press"),
-    new Quote(2, "I think [Arsene Wenger] is one of these people who is a voyeur. He likes to watch other people. There are some guys who, when they are at home, have a big telescope to see what happens in other families. He speaks, speaks, speaks about Chelsea.", "Jose Mourinho", "Moringa Press")
+    new Quote(1, "Talk is cheap. Show me the code.", "Linus", "Moringa Press", new Date(2018,3,14) ),
+    new Quote(2, "It's not the SIZE of the dog in the fight, but the size of the FIGHT in the dog.", "Archie", "Moringa Press", new Date(2018,3,14) )
 
   ]
   toogleDetails(index) {
@@ -20,7 +21,7 @@ export class QuoteComponent implements OnInit {
 
   deleteGoal(isComplete, index) {
     if (isComplete) {
-      let toDelete = confirm(`Are you sure you want to delete this lovely quote -- ${this.quotes[index].quote}`)
+      let toDelete = confirm(`Are you sure you want to delete this quote?`)
 
       if (toDelete) {
         this.quotes.splice(index, 1)

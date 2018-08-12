@@ -1,5 +1,5 @@
 # BrainyQuotes
-#### BrainyQuotes app created as an Independent Project on 20/07/2018
+#### BrainyQuotes app created as an Independent Project on 10/08/2018
 #### Author: **Tony Kioko Munywoki**
 ## Description
 BrainyQuotes is a web application that enables users to create quotes, have the quotes voted on and the option to delete the quotes.

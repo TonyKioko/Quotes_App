@@ -2,7 +2,7 @@ export class Quote {
   public showAuthor:boolean;
   public upvotes:number;
   public downvotes:number;
-  constructor(public id:number, public quote:string, public author:string,public publisher:string){
+  constructor(public id:number, public quote:string, public author:string,public publisher:string,public submissionDate:Date){
     this.showAuthor = false;
     this.upvotes =0;
     this.downvotes =0;
