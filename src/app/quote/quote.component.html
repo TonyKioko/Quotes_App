@@ -1,15 +1,29 @@
 
-<div class="container">
+<!-- <div class="container-fluid"> -->
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-5" id="input-section">
       <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
     <br>
+    <div class="col-md-6" id="output-section">
+      <ul>
+          <div *ngFor='let quote of quotes;let i=index'>
+              <li >{{ quote.quote }}</li>
+              <br>
+              <app-vote></app-vote>
+              <button  class="btn btn-success my-2"(click)='toogleDetails(i)'>Quote Details</button>
+              <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'(isComplete)= 'deleteGoal($event,i)' ></app-quote-details>
+              <hr>
+          </div>
+
+      </ul>
+
+    </div>
 
   </div>
-</div>
+<!-- </div> -->
 <br>
-<ul>
+<!-- <ul>
     <div *ngFor='let quote of quotes;let i=index'>
         <li >{{ quote.quote }}</li>
         <br>
@@ -19,4 +33,4 @@
         <hr>
     </div>
 
-</ul>
+</ul> -->

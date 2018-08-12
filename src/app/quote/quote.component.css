@@ -4,3 +4,24 @@
   font-weight: 100;
   color:white;
 }
+ul li {
+  font-style: italic;
+  /* background: url(src/assets/qr.png) no-repeat left center; */
+}
+#input-section{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(src/assets/bg6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+  padding:20px;
+  border:2px solid grey;
+  margin:2%;
+}
+#output-section{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(src/assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+  padding:20px;
+  margin:2%;
+}

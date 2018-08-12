@@ -25,14 +25,14 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="col-md-4"><label for="publisher">Your Name</label>
-              <input type='text' id="publisher" class="form-control" [(ngModel)]="newQuote.publisher" name="publisher" #publisher="ngModel" required>
+            <div class="col-md-4" style="margin-right:100px;"><label for="publisher">Your Name</label>
+              <input type='text' id="publisher" style="width:200px;" class="form-control" [(ngModel)]="newQuote.publisher" name="publisher" #publisher="ngModel" required>
               <div [hidden]="publisher.valid || publisher.pristine" class="alert alert-danger">
                 <p> Publisher Name is Required</p>
 
               </div>
             </div>
-            <div class="col-md-5" style="margin-top:36px;">
+            <div class="col-md-5" style="margin-top:2px;">
               <div class="form-group">
                 <label for="complete" class="mx-2">Date</label>
                 <input type='date' id="complete" required>
@@ -43,7 +43,7 @@
 
 
         </div>
-        <button type="submit" class="btn btn-success btn-lg">Quote</button>
+        <button type="submit" class="btn btn-success btn-lg m-2">Submit</button>
       </form>
     </div>
 

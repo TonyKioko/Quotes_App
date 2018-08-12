@@ -6,7 +6,8 @@ body {
 
 }
 #quote-section {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../src/assets/bg4.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../src/assets/bg4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 10px 20px;
 }
