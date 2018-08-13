@@ -12,14 +12,14 @@ export class QuoteComponent implements OnInit {
   quotes = [
 
     new Quote(1, "Talk is cheap. Show me the code.", "Linus", "Moringa Press", new Date(2018,7,13) ),
-    new Quote(2, "It's not the SIZE of the dog in the fight, but the size of the FIGHT in the dog.", "Archie", "Moringa Press", new Date(2018,7,13) )
+    new Quote(2, "The chance of the buttered side of the bread falling face down is directly proportional to the cost of the carpet..", "Archie", "Moringa Press", new Date(2018,7,13) )
 
   ]
   toogleDetails(index) {
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
   }
 
-  deleteGoal(isComplete, index) {
+  deleteQuote(isComplete, index) {
     if (isComplete) {
       let toDelete = confirm(`Are you sure you want to delete this quote?`)
 
