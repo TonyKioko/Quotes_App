@@ -23,6 +23,7 @@ BrainyQuotes is a web application that enables users to create quotes, have the 
 * Angular JS
 * HTML
 * Cascading Style Sheets
+* Bootstrap
 
 
 ## Known Bugs ##
