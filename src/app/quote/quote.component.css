@@ -6,7 +6,7 @@
 }
 ul li {
   font-style: italic;
-  /* background: url(src/assets/qr.png) no-repeat left center; */
+
 }
 #input-section{
   background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/bg6.jpeg);
@@ -23,7 +23,7 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position:left;  */
-  height:900px;
+  height:800px;
   padding:38px;
   margin:2%;
   border-radius:30px;
