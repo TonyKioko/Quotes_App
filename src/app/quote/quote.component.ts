@@ -11,8 +11,8 @@ export class QuoteComponent implements OnInit {
 
   quotes = [
 
-    new Quote(1, "Talk is cheap. Show me the code.", "Linus", "Moringa Press", new Date(2018,7,20) ),
-    new Quote(2, "It's not the SIZE of the dog in the fight, but the size of the FIGHT in the dog.", "Archie", "Moringa Press", new Date(2018,8,7) )
+    new Quote(1, "Talk is cheap. Show me the code.", "Linus", "Moringa Press", new Date(2018,7,13) ),
+    new Quote(2, "It's not the SIZE of the dog in the fight, but the size of the FIGHT in the dog.", "Archie", "Moringa Press", new Date(2018,7,13) )
 
   ]
   toogleDetails(index) {
